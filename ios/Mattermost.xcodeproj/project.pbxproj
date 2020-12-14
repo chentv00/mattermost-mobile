@@ -3,8 +3,9 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0111A42B7F264BCF8CBDE3ED /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBBEC29EE2D3418D9AC33BD5 /* OpenSans-ExtraBoldItalic.ttf */; };
 		0C0D24F53F254F75869E5951 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41F3AFE83AAF4B74878AB78A /* OpenSans-Italic.ttf */; };
@@ -12,6 +13,28 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D5296A8926B4D7FBAF2D6E2 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6561AEAC21CC40B8A72ABB93 /* OpenSans-Light.ttf */; };
+		3316A93625841DF4003440D5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93525841DF4003440D5 /* AdSupport.framework */; };
+		3316A93825841E04003440D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93725841E04003440D5 /* AVFoundation.framework */; };
+		3316A93A25841E20003440D5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93925841E20003440D5 /* CFNetwork.framework */; };
+		3316A93C25841E2A003440D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93B25841E2A003440D5 /* CoreData.framework */; };
+		3316A93E25841E30003440D5 /* DeviceCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93D25841E30003440D5 /* DeviceCheck.framework */; };
+		3316A94025841E50003440D5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A93F25841E50003440D5 /* libc++.tbd */; };
+		3316A94125841E59003440D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81061F4CBB31484A94D5A8EE /* libz.tbd */; };
+		3316A94325841E60003440D5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94225841E60003440D5 /* LocalAuthentication.framework */; };
+		3316A94525841E68003440D5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94425841E68003440D5 /* MessageUI.framework */; };
+		3316A94725841E7A003440D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94625841E7A003440D5 /* MobileCoreServices.framework */; };
+		3316A94925841E84003440D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94825841E84003440D5 /* QuartzCore.framework */; };
+		3316A94B25841E8B003440D5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94A25841E8A003440D5 /* QuickLook.framework */; };
+		3316A94D25841E9A003440D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94C25841E99003440D5 /* Security.framework */; };
+		3316A94F25841EA0003440D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A94E25841EA0003440D5 /* SystemConfiguration.framework */; };
+		3316A95025841EA7003440D5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3378B5B42583551800CFC0A6 /* WebKit.framework */; };
+		3316A95525841F37003440D5 /* BlackBerryCerticom.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A95125841F25003440D5 /* BlackBerryCerticom.xcframework */; };
+		3316A95625841F37003440D5 /* BlackBerryCerticom.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A95125841F25003440D5 /* BlackBerryCerticom.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3316A95825841F3A003440D5 /* BlackBerryCerticomSBGSE.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A95225841F29003440D5 /* BlackBerryCerticomSBGSE.xcframework */; };
+		3316A95925841F3A003440D5 /* BlackBerryCerticomSBGSE.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3316A95225841F29003440D5 /* BlackBerryCerticomSBGSE.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3316A962258424A4003440D5 /* GDAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3316A96025842439003440D5 /* GDAssets.bundle */; };
+		3378B58E25834E1400CFC0A6 /* GD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3378B58B25834DD000CFC0A6 /* GD.framework */; };
+		3378B5CE25835E9700CFC0A6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3378B5CD25835E9700CFC0A6 /* SafariServices.framework */; };
 		3C0B333879CE4730843D8584 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D08F54E10DF14AE4BBF4E2B4 /* Roboto-MediumItalic.ttf */; };
 		3D7B4E6EE6B948AAA6A1E4E6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C46342B0E5FD4D878AF3A129 /* Roboto-BoldItalic.ttf */; };
 		460A48EA5C6C4D8B8D9A2C75 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 031EF04FB2D14EEFAACBAA1A /* Roboto-Italic.ttf */; };
@@ -115,12 +138,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		37DA4BA41E6F55AD002B058E /* Embed Frameworks */ = {
+		3316A95725841F38003440D5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3316A95625841F37003440D5 /* BlackBerryCerticom.xcframework in Embed Frameworks */,
+				3316A95925841F3A003440D5 /* BlackBerryCerticomSBGSE.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +181,28 @@
 		25BF2BACE89201DE6E585B7E /* Pods-Mattermost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mattermost.release.xcconfig"; path = "Target Support Files/Pods-Mattermost/Pods-Mattermost.release.xcconfig"; sourceTree = "<group>"; };
 		297AAFCCF0BD99FC109DA2BC /* Pods-MattermostTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MattermostTests.release.xcconfig"; path = "Target Support Files/Pods-MattermostTests/Pods-MattermostTests.release.xcconfig"; sourceTree = "<group>"; };
 		32AC3D4EA79E44738A6E9766 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3316A93525841DF4003440D5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3316A93725841E04003440D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3316A93925841E20003440D5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3316A93B25841E2A003440D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3316A93D25841E30003440D5 /* DeviceCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceCheck.framework; path = System/Library/Frameworks/DeviceCheck.framework; sourceTree = SDKROOT; };
+		3316A93F25841E50003440D5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3316A94225841E60003440D5 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		3316A94425841E68003440D5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3316A94625841E7A003440D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3316A94825841E84003440D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3316A94A25841E8A003440D5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		3316A94C25841E99003440D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3316A94E25841EA0003440D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3316A95125841F25003440D5 /* BlackBerryCerticom.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BlackBerryCerticom.xcframework; path = System/Library/Frameworks/BlackBerryCerticom.xcframework; sourceTree = SDKROOT; };
+		3316A95225841F29003440D5 /* BlackBerryCerticomSBGSE.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BlackBerryCerticomSBGSE.xcframework; path = System/Library/Frameworks/BlackBerryCerticomSBGSE.xcframework; sourceTree = SDKROOT; };
+		3316A95C2584229F003440D5 /* GDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GDAssets.bundle; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GD.framework/Versions/A/Resources/GDAssets.bundle; sourceTree = DEVELOPER_DIR; };
+		3316A96025842439003440D5 /* GDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GDAssets.bundle; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GD.framework/Versions/A/Resources/GDAssets.bundle; sourceTree = DEVELOPER_DIR; };
+		3378B58B25834DD000CFC0A6 /* GD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GD.framework; path = System/Library/Frameworks/GD.framework; sourceTree = SDKROOT; };
+		3378B5B42583551800CFC0A6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3378B5C525835C8B00CFC0A6 /* BlackBerryCerticom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlackBerryCerticom.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/BlackBerryCerticom.framework; sourceTree = DEVELOPER_DIR; };
+		3378B5C625835C8F00CFC0A6 /* BlackBerryCerticomSBGSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlackBerryCerticomSBGSE.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/BlackBerryCerticomSBGSE.framework; sourceTree = DEVELOPER_DIR; };
+		3378B5CD25835E9700CFC0A6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		34B20A903038487E8D7DEA1E /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3647DF63D6764CF093375861 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		41F3AFE83AAF4B74878AB78A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -254,6 +301,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3316A95025841EA7003440D5 /* WebKit.framework in Frameworks */,
+				3316A94F25841EA0003440D5 /* SystemConfiguration.framework in Frameworks */,
+				3316A94D25841E9A003440D5 /* Security.framework in Frameworks */,
+				3378B5CE25835E9700CFC0A6 /* SafariServices.framework in Frameworks */,
+				3316A94B25841E8B003440D5 /* QuickLook.framework in Frameworks */,
+				3316A94925841E84003440D5 /* QuartzCore.framework in Frameworks */,
+				3316A94725841E7A003440D5 /* MobileCoreServices.framework in Frameworks */,
+				3316A94525841E68003440D5 /* MessageUI.framework in Frameworks */,
+				3316A94325841E60003440D5 /* LocalAuthentication.framework in Frameworks */,
+				3316A94125841E59003440D5 /* libz.tbd in Frameworks */,
+				3316A94025841E50003440D5 /* libc++.tbd in Frameworks */,
+				3316A95525841F37003440D5 /* BlackBerryCerticom.xcframework in Frameworks */,
+				3378B58E25834E1400CFC0A6 /* GD.framework in Frameworks */,
+				3316A93E25841E30003440D5 /* DeviceCheck.framework in Frameworks */,
+				3316A93C25841E2A003440D5 /* CoreData.framework in Frameworks */,
+				3316A95825841F3A003440D5 /* BlackBerryCerticomSBGSE.xcframework in Frameworks */,
+				3316A93A25841E20003440D5 /* CFNetwork.framework in Frameworks */,
+				3316A93825841E04003440D5 /* AVFoundation.framework in Frameworks */,
+				3316A93625841DF4003440D5 /* AdSupport.framework in Frameworks */,
 				49B4C050230C981C006E919E /* libUploadAttachments.a in Frameworks */,
 				6C9B1EFD6561083917AF06CF /* libPods-Mattermost.a in Frameworks */,
 			);
@@ -298,7 +364,9 @@
 		0156F464626F49C2977D7982 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3378B5B42583551800CFC0A6 /* WebKit.framework */,
 				499F7AF0235511FC00E7AF6E /* Mattermost-Regular.otf */,
+				3316A96025842439003440D5 /* GDAssets.bundle */,
 				D4B1B363C2414DA19C1AC521 /* OpenSans-Bold.ttf */,
 				32AC3D4EA79E44738A6E9766 /* OpenSans-BoldItalic.ttf */,
 				3647DF63D6764CF093375861 /* OpenSans-ExtraBold.ttf */,
@@ -387,6 +455,25 @@
 		4B992D7BAAEDF8759DB525B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3316A95125841F25003440D5 /* BlackBerryCerticom.xcframework */,
+				3316A95225841F29003440D5 /* BlackBerryCerticomSBGSE.xcframework */,
+				3316A94E25841EA0003440D5 /* SystemConfiguration.framework */,
+				3316A94C25841E99003440D5 /* Security.framework */,
+				3316A94A25841E8A003440D5 /* QuickLook.framework */,
+				3316A94825841E84003440D5 /* QuartzCore.framework */,
+				3316A94625841E7A003440D5 /* MobileCoreServices.framework */,
+				3316A94425841E68003440D5 /* MessageUI.framework */,
+				3316A94225841E60003440D5 /* LocalAuthentication.framework */,
+				3316A93F25841E50003440D5 /* libc++.tbd */,
+				3316A93D25841E30003440D5 /* DeviceCheck.framework */,
+				3316A93B25841E2A003440D5 /* CoreData.framework */,
+				3316A93925841E20003440D5 /* CFNetwork.framework */,
+				3316A93725841E04003440D5 /* AVFoundation.framework */,
+				3316A93525841DF4003440D5 /* AdSupport.framework */,
+				3378B5CD25835E9700CFC0A6 /* SafariServices.framework */,
+				3378B5C625835C8F00CFC0A6 /* BlackBerryCerticomSBGSE.framework */,
+				3378B5C525835C8B00CFC0A6 /* BlackBerryCerticom.framework */,
+				3378B58B25834DD000CFC0A6 /* GD.framework */,
 				495BC96123565ADD00C40C83 /* libYoutubePlayer-in-WKWebView.a */,
 				495BC95F23565ABF00C40C83 /* libXCDYouTubeKit.a */,
 				499F7B412355141200E7AF6E /* libYoutubePlayer-in-WKWebView.a */,
@@ -462,6 +549,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3316A95C2584229F003440D5 /* GDAssets.bundle */,
 				7FABE04022137F2900D0F595 /* UploadAttachments.xcodeproj */,
 			);
 			name = Libraries;
@@ -509,10 +597,10 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				37DA4BA41E6F55AD002B058E /* Embed Frameworks */,
 				AE4769B235D14E6C9C64EA78 /* Upload Debug Symbols to Sentry */,
 				7FFE32A91FD9CB650038C7A0 /* Embed App Extensions */,
 				ED4C644925C525E30315E09E /* [CP] Copy Pods Resources */,
+				3316A95725841F38003440D5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -658,6 +746,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3316A962258424A4003440D5 /* GDAssets.bundle in Resources */,
 				7F151D41221B069200FAD8F3 /* 0155-keys.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7F0F4B0A24BA173900E14C60 /* LaunchScreen.storyboard in Resources */,
@@ -906,6 +995,7 @@
 			baseConfigurationReference = EB4F0DF36537B0B21BE962FB /* Pods-Mattermost.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mattermost/Mattermost.entitlements;
@@ -920,8 +1010,11 @@
 					"$(SRCROOT)/UploadAttachments/UploadAttachments",
 				);
 				INFOPLIST_FILE = Mattermost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DFB_SONARKIT_ENABLED=1",
@@ -930,6 +1023,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta;
 				PRODUCT_NAME = Mattermost;
@@ -939,6 +1033,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -948,6 +1043,7 @@
 			baseConfigurationReference = 25BF2BACE89201DE6E585B7E /* Pods-Mattermost.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mattermost/Mattermost.entitlements;
@@ -962,8 +1058,11 @@
 					"$(SRCROOT)/UploadAttachments/UploadAttachments",
 				);
 				INFOPLIST_FILE = Mattermost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DFB_SONARKIT_ENABLED=1",
@@ -972,6 +1071,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta;
 				PRODUCT_NAME = Mattermost;
@@ -980,6 +1080,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Mattermost/Mattermost-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1010,8 +1111,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/UploadAttachments/UploadAttachments";
 				INFOPLIST_FILE = MattermostShare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = (
@@ -1026,6 +1131,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -1056,8 +1162,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/UploadAttachments/UploadAttachments";
 				INFOPLIST_FILE = MattermostShare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -1066,10 +1176,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.MattermostShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "MattermostShare/MattermostShare-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
@@ -1098,8 +1210,12 @@
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = (
@@ -1113,6 +1229,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -1142,8 +1259,12 @@
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -1152,9 +1273,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
 		};

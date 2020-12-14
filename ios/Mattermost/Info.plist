@@ -32,6 +32,10 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>mattermost</string>
+				<string>com.mattermost.sc2</string>
+				<string>com.mattermost.sc2.1.0.0.0</string>
+				<string>com.mattermost.sc3</string>
+				<string>com.good.gd.discovery</string>
 			</array>
 		</dict>
 	</array>
@@ -129,6 +133,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>GDApplicationID</key>
+	<string>com.mattermost.rnbeta</string>
+	<key>GDApplicationVersion</key>
+	<string>1.0.0.0</string>
+	<key>GDLibraryMode</key>
+	<string>GDEnterprise</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>https</string>

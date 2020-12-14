@@ -1,4 +1,10 @@
 PODS:
+  - BbdRNAsyncStorage (1.0.0):
+    - React
+  - BbdRNBase (1.0.0):
+    - React
+  - BbdRNWebView (1.0.0):
+    - React
   - boost-for-react-native (1.63.0)
   - BVLinearGradient (2.5.6):
     - React
@@ -375,6 +381,9 @@ PODS:
   - YoutubePlayer-in-WKWebView (0.3.4)
 
 DEPENDENCIES:
+  - BbdRNAsyncStorage (from `../../BlackBerry-Dynamics-React-Native-SDK/modules/BlackBerry-Dynamics-for-React-Native-Async-Storage/ios`)
+  - BbdRNBase (from `../../BlackBerry-Dynamics-React-Native-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base/ios`)
+  - BbdRNWebView (from `../../BlackBerry-Dynamics-React-Native-SDK/ui-components/BlackBerry-Dynamics-for-React-Native-WebView/ios`)
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -463,6 +472,12 @@ SPEC REPOS:
     - YoutubePlayer-in-WKWebView
 
 EXTERNAL SOURCES:
+  BbdRNAsyncStorage:
+    :path: "../../BlackBerry-Dynamics-React-Native-SDK/modules/BlackBerry-Dynamics-for-React-Native-Async-Storage/ios"
+  BbdRNBase:
+    :path: "../../BlackBerry-Dynamics-React-Native-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base/ios"
+  BbdRNWebView:
+    :path: "../../BlackBerry-Dynamics-React-Native-SDK/ui-components/BlackBerry-Dynamics-for-React-Native-WebView/ios"
   BVLinearGradient:
     :path: "../node_modules/react-native-linear-gradient"
   DoubleConversion:
@@ -601,6 +616,9 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  BbdRNAsyncStorage: 13c000dc4a560cda5472c4cc2e76c9dc02318486
+  BbdRNBase: 8dc9acb6f644a24e21de9c61779e2d70681bf08e
+  BbdRNWebView: d8ca62c366364dffe1702c24e3dee99a2435d579
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: e3aad03778a456d77928f594a649e96995f1c872
   DoubleConversion: cde416483dac037923206447da6e1454df403714

@@ -260,6 +260,10 @@ dependencies {
     implementation  'com.facebook.fresco:webpsupport:2.0.0'
 
     androidTestImplementation('com.wix:detox:+')
+
+    // Add the BlackBerry Dynamics Dependencies to the Project 
+    implementation 'com.blackberry.blackberrydynamics:android_handheld_platform:+'
+    implementation 'com.blackberry.blackberrydynamics:android_handheld_backup_support:+'
 }
 
 // Run this once to be able to run the application with BUCK

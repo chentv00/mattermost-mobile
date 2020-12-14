@@ -19,7 +19,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:4.0.1'
         classpath 'com.google.gms:google-services:4.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
 
@@ -70,5 +70,14 @@ allprojects {
         maven {
             url "$rootDir/../node_modules/detox/Detox-android"
         }
+
+        // Add the BlackBerry Dynamics Runtime Library to the project 
+        def localProperties = new File(rootDir, "local.properties")
+        Properties properties = new Properties()
+        localProperties.withInputStream { instr ->
+            properties.load(instr)
+        }
+        def sdkDir = properties.getProperty('sdk.dir')
+        maven { url sdkDir+'/extras/blackberry/dynamics_sdk/m2repository' }
     }
 }
